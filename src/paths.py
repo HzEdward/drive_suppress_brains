@@ -5,6 +5,9 @@ user = getpass.getuser()
 
 ROOTDIR = os.path.abspath(join(os.path.dirname( __file__ ), '..'))
 
+#? this is the root directory for the project
+
+
 # Default paths
 RESULTROOT 	= join(ROOTDIR, 'results')
 WEIGHTROOT 	= join(ROOTDIR, 'regr-weights' ) # Directory for storing regression weights
