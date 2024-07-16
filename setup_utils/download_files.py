@@ -3,6 +3,9 @@ import tarfile
 import sys
 import os
 
+#TODO: This is a temporary script to download the data and model activations.
+# The data is stored in the public_data folder on the evlabwebapps.mit.edu server.
+
 ROOT = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
 # Use the flags below to indicate what you want to download.
